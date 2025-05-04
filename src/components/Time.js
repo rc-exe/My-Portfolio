@@ -76,10 +76,13 @@ const Time = () => {
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp}
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      onMouseLeave={(e) => {
+        handleMouseUp(e);
+        setIsHovered(false);
+      }}
     >
+
       <div className=" transition-all duration-300">
         <div className="flex flex-col items-center text-white font-mono">
           {/* Time with colored segments */}
