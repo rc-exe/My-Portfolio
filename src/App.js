@@ -6,6 +6,7 @@ import { FiMail, FiExternalLink } from "react-icons/fi";
 import background from "./assets/background.JPG";
 import WeatherWidget from './components/WeatherWidget';
 import ScrollIndicator from "./components/ScrollIndicator"; // adjust the path if needed
+import Time from './components/Time'; // Adjust the path if needed
 
 function App() {
   const { scrollY } = useScroll();
