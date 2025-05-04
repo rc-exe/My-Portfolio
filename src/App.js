@@ -175,7 +175,8 @@ function App() {
 
   {/* Weather Widget - positioned top right */}
   <WeatherWidget />
-
+{/* Time Component - positioned top left */}
+<Time />
   <motion.div
     className="max-w-4xl relative z-10"
     initial={{ opacity: 0, y: 40 }}
