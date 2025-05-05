@@ -94,10 +94,10 @@ const Time = () => {
 </div>
           
           {/* Date and Day (appears on hover) */}
-          <div className={`text-center transition-all duration-300 ${isHovered ? 'opacity-90 mt-2' : 'opacity-0 h-0'}`}>
-            <div className="text-sm font-medium opacity-80">{weekday}</div>
-            <div className="text-xs opacity-60">{monthDay}, {year}</div>
-          </div>
+          <div className={`text-center transition-all duration-300 ${isHovered ? 'opacity-90 mt-2' : 'opacity-0 h-0'} backdrop-blur-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-lg p-[2px]`}>
+  <div className="text-sm font-medium opacity-90">{weekday}</div>
+  <div className="text-xs opacity-80">{monthDay}, {year}</div>
+</div>
           
           {/* Drag handle indicator */}
           <div className={`w-8 h-0.5 bg-white/30 rounded-full mt-2 transition-all duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}></div>
