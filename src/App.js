@@ -16,10 +16,10 @@ function App() {
   
   const projects = [
     { 
-      name: "Resume Scanner", 
-      link: "https://github.com/rc-exe/resume-scanner",
-      description: "ATS-compatible resume parser with scoring system that analyzes and ranks resumes based on job descriptions",
-      tags: ["Python", "NLP", "Flask"]
+       name: "PDF Parser", 
+      link: "https://pdf-parser-b6e4.onrender.com/",
+      description: "Tool to extract and analyze text from PDF documents with search functionality",
+      tags: ["Python", "PyPDF2", "NLTK"]
     },
     { 
       name: "Online Code Editor", 
@@ -40,10 +40,10 @@ function App() {
       tags: ["Python", "Security", "Encryption"]
     },
     { 
-      name: "PDF Parser", 
-      link: "https://github.com/rc-exe/pdf-praser",
-      description: "Tool to extract and analyze text from PDF documents with search functionality",
-      tags: ["Python", "PyPDF2", "NLTK"]
+     name: "Online Code Editor", 
+      link: "https://online-code-editor-a9zz.onrender.com/",
+      description: "Real-time collaborative code editor with syntax highlighting and live preview functionality",
+      tags: ["React", "Node.js", "WebSockets"]
     },
     { 
       name: "Speech To Text", 
