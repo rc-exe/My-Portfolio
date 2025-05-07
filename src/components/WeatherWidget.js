@@ -40,7 +40,7 @@ const WeatherWidget = () => {
           },
           () => {
             fetchWeather(40.7128, -74.0060); // New York fallback
-            setError("Using default location");
+            setError("Turn Location On For Weather Information");
           }
         );
       } else {
