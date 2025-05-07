@@ -40,10 +40,10 @@ function App() {
       tags: ["Python", "Security", "Encryption"]
     },
     { 
-     name: "Online Code Editor", 
-      link: "https://online-code-editor-a9zz.onrender.com/",
-      description: "Real-time collaborative code editor with syntax highlighting and live preview functionality",
-      tags: ["React", "Node.js", "WebSockets"]
+     name: "Resume Scanner", 
+      link: "https://github.com/rc-exe/resume-scanner",
+      description: "ATS-compatible resume parser with scoring system that analyzes and ranks resumes based on job descriptions",
+      tags: ["Python", "NLP", "Flask"]
     },
     { 
       name: "Speech To Text", 
