@@ -94,6 +94,8 @@ function App() {
       {/* Sidebar Navigation */}
       <nav className="w-64 min-h-screen p-6 flex flex-col justify-between items-center backdrop-blur-md bg-white/80 dark:bg-gray-900/80 shadow-lg fixed left-0 top-0 z-50">
   <div className="w-full">
+        <DarkModeToggle />
+
   <motion.a 
   href="#hero"
   className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-12 text-center block"
@@ -146,7 +148,6 @@ function App() {
       </motion.a>
     </div>
 
-    <DarkModeToggle />
   </div>
 </nav>
 
