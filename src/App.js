@@ -41,7 +41,7 @@ function App() {
     },
     { 
      name: "Resume Scanner", 
-      link: "https://github.com/rc-exe/resume-scanner",
+      link: "https://resume-ats-scorer.netlify.app/",
       description: "ATS-compatible resume parser with scoring system that analyzes and ranks resumes based on job descriptions",
       tags: ["Python", "NLP", "Flask"]
     },
